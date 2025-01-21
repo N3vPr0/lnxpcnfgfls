@@ -128,10 +128,10 @@ super + shift + b
         chromium
 #AyuGram
 super + shift + a
-          /home/nevpro/Downloads/home/gentoo/Downloads/ayugram/ayugram-desktop
+          $HOME/Downloads/home/gentoo/Downloads/ayugram/ayugram-desktop
 #YTM
 super + shift + m
-          /home/nevpro/Applications/YTM_a0541b5d09682d3408f4c4dae8610459.AppImage
+          $HOME/Applications/YTM_a0541b5d09682d3408f4c4dae8610459.AppImage
 
 # MOVE TO NEXT DESKTOP
 super + {_,shift + }{1-9,0}
@@ -139,12 +139,12 @@ super + {_,shift + }{1-9,0}
 
 #XMCL
 super + shift + x
-               java -jar /home/nevpro/Downloads/LegacyLauncher_legacy.jar
+               java -jar $HOME/Downloads/LegacyLauncher_legacy.jar
 
 # screenshoots
 
 shift + Print
-      escrotum -s --selection-delay 1500 /home/nevpro/screenshots/%Y-%m-%d-%H%M%S.png
+      escrotum -s --selection-delay 1500 $HOME/screenshots/%Y-%m-%d-%H%M%S.png
 Print
       scrot 'screenshot_%Y%m%d_%H%M%S.png' -e 'mkdir -p ~/screenshots && mv $f ~/screenshots && xclip -selection clipboard -t image/png -i ~/screenshots/`ls -1 -t ~/screenshots | head -1`'
 
