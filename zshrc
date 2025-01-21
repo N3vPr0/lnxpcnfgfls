@@ -10,7 +10,7 @@ fi
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export PATH="/home/nevpro/.cargo/bin/"
+export PATH="$HOME/.cargo/bin/"
 export PATH="/usr/bin"
 ZSH_THEME=""
 
@@ -25,11 +25,11 @@ source $ZSH/oh-my-zsh.sh
 
 
 #alias for ls
-alias ls='exa --icons'
+alias ls='exa'
 alias ll='ls -l'
 alias la='ls -la'
 alias vim='nvim'
-alias mc='java -jar /home/nevpro/Downloads/Minecraft.jar'
+alias mc='java -jar $HOME/Downloads/Minecraft.jar'
 # for ranger to set nvim as default editor
 #
 export EDITOR='nvim'
