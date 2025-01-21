@@ -18,10 +18,10 @@ picom --config $HOME/.config/picom/picom.conf &
 nitrogen --restore &
 dunst &
 setxkbmap -option grp:alt_shift_toggle us,ru &
-/home/nevpro/.config/polybar/launch.sh --forest &
-sudo /home/nevpro/ZeroTierOne-1.14.1/zerotier-one &
+$HOME/.config/polybar/launch.sh --forest &
+sudo $HOME/ZeroTierOne-1.14.1/zerotier-one &
 ollama serve &
 lxpolkit &
-source /home/nevpro/.zshrc/ &
+source $HOME/.zshrc/ &
 clipmenud &
 export CM_LAUNCHER=rofi &
