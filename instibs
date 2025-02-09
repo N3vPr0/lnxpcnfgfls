@@ -1,0 +1,1 @@
+sudo pacman -S fontconfig glu lib32-fontconfig lib32-glu lib32-libvorbis lib32-libxi lib32-libxrandr lib32-nvidia-cg-toolkit lib32-openal libvorbis libxi libxrandr nvidia-cg-toolkit openal
