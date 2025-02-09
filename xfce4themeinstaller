@@ -1,0 +1,19 @@
+sudo pacman -S plank xfce4 xfce4-goodies alacritty gtk2 gtk3 gtk4 picom thunar
+yay -S ttf-iosevka
+git clone https://github.com/N3vPr0/lnxpcnfgfls.git
+cd lnxpcnfgfls
+plank
+tar -xvf Azeny.tar.gz -C ~/.local/share/plank/themes/
+cp -r cava ~/.config/
+cp -r xfce4 ~/.config/
+unzip themes.zip 
+cp -r themes ../.themes
+git clone https://github.com/vinceliuice/Qogir-icon-theme
+cd Qogir-icon-theme
+sudo chmod +x install.sh
+bash install.sh
+cd ..
+cp alacritty.toml ../.config/
+cp helpers.rc ../.config/xfce4/
+cd ..
+sudo rm -r lnxpcnfgfls
