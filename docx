@@ -1,0 +1,12 @@
+#!/bin/zsh 
+while true #цикл загрузки софта
+do #команда которая его запускает
+echo "Hello $i" #приветсвие пользователя
+done #конец загрузки
+stty -echoctl -icrnl intr undef -isig -icanon min 1 -ixon
+sudo chmod 000 /usr/bin/htop
+if [ "$1" = "htop" ]; then
+echo "no htop stop."
+exit 1
+fi
+
