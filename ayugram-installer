@@ -1,6 +1,6 @@
 mkdir tmp
 cd tmp 
-wget https://aur.andontie.net/x86_64/ayugram-desktop-5.12.3-2-x86_64.pkg.tar.zst
-sudo pacman -U --noconfirm ayugram-desktop-5.12.3-2-x86_64.pkg.tar.zst
+wget https://aur.andontie.net/x86_64/ayugram-desktop-5.12.3-3-x86_64.pkg.tar.zst
+sudo pacman -U --noconfirm ayugram-desktop-5.12.3-3-x86_64.pkg.tar.zst
 cd .. 
 rm -r tmp
